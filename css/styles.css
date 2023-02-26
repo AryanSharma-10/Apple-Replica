@@ -1,0 +1,82 @@
+/* General Classes */
+
+.anchor{
+    color: #2997ff;
+    text-decoration: none;
+}
+
+.anchor:hover{
+    text-decoration: underline;
+}
+
+/* Appereance Wise Classes */
+
+.nav-custom {
+    background-color: #181818;
+    color: #d0d0d1;
+    font-size: 0.7rem;
+}
+
+.navbar-nav.navbar-center {
+    margin: 0 auto;
+}
+
+.nav-item {
+    padding:0 0.8rem;
+}
+
+.bank-offer{
+    background-color: #1d1d1f;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    color: white;
+}
+
+.bank-text{
+    font-size: 0.93rem;
+    width: 60%;
+    font-weight: 350;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.iphone14-pro{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 3rem;
+}
+
+.iphone14-pro-heading{
+    font-size:3.5rem;
+}
+
+.iphone14-pro-anchor{
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+}
+
+.iphone14-pro-img{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.iphone14{
+    background-color: #fbfbfd;
+}
+
+.iphone14-pro-heading{
+    font-size:3.5rem;
+}
+
+.iphone14-pro-anchor{
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+}
+
+.iphone14-pro-img{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
