@@ -15,6 +15,7 @@
     background-color: #181818;
     color: #d0d0d1;
     font-size: 0.7rem;
+    padding: 0px;
 }
 
 .navbar-nav.navbar-center {
@@ -47,14 +48,15 @@
     padding-top: 3rem;
 }
 
-.iphone14-pro-heading{
+.iphone-heading{
     font-size:3.5rem;
+    font-weight: 600;
 }
 
-.iphone14-pro-anchor{
+/* .iphone14-pro-anchor{
     font-size: 1.2rem;
     padding: 1rem 1rem;
-}
+} */
 
 .iphone14-pro-img{
     width: 50%;
@@ -66,11 +68,7 @@
     background-color: #fbfbfd;
 }
 
-.iphone14-pro-heading{
-    font-size:3.5rem;
-}
-
-.iphone14-pro-anchor{
+.iphone-link{
     font-size: 1.2rem;
     padding: 1rem 1rem;
 }
@@ -80,3 +78,74 @@
     margin: 0 auto;
     display: block;
 }
+
+.iphone-button {
+    display: block;
+    margin: 2px auto 10px auto;
+    padding: 4px 8px;
+    border-radius: 80px;
+    font-family: Arial;
+    color: #86868b;
+    font-size: 0.85rem;
+    border: solid #86868b 1.5px;
+    text-decoration: none;
+    background: transparent;
+  }
+  
+  .iphone-button:hover {
+    text-decoration: none;
+    color: #86868b;
+    border: solid #86868b 1.5px;
+  }
+  
+.iphone14{
+    background-color: #fbfbfd;
+    text-align: center;
+    color: black;
+    padding: 1rem 0;
+}
+
+.iphone14-pro-img{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.video-container {
+    height: 56rem;
+    width: auto;
+    position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  top: 40rem;
+  font-size: 10rem;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  padding: 0;
+}
+
+.fursat-heading{
+    font-size: 12rem;   
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+.fursat-subheading{
+    font-size: 1rem;   
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
