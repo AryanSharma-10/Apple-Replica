@@ -1,5 +1,8 @@
-/* General Classes */
-
+/* Global Classes and Tags*/
+span {
+    display: inline-block;
+  }
+  
 .anchor{
     color: #2997ff;
     text-decoration: none;
@@ -9,7 +12,9 @@
     text-decoration: underline;
 }
 
-/* Appereance Wise Classes */
+
+
+/* Appereance Wise Custom Classes */
 
 .nav-custom {
     background-color: #181818;
@@ -140,8 +145,17 @@
     font-family: 'Tenali Ramakrishna', sans-serif;
 }
 
+.flipH {
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+  }
+
 .fursat-subheading{
-    font-size: 1rem;   
+    font-size: 1.5rem;   
     font-family: 'Tenali Ramakrishna', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
@@ -157,7 +171,7 @@
     text-decoration: none;
     border: solid 0px;
     position: relative;
-    bottom: 9.125rem;
+    bottom: 12rem;
   }
   
   .fursat-btn:hover {
@@ -165,7 +179,65 @@
     text-decoration: none;
   }
 
-.macbook-pro{
+.black-product{
     background-color: black;
+    color: white;
+    text-align: center;
+    border-top: solid 0.8rem;
+    border-left: solid 0.8rem;
 }
 
+.white-product{
+    background-color: #fbfbfb;
+    text-align: center;
+    color: black;
+    border-top: solid white 0.8rem;
+    border-left: solid white 0.8rem;
+}
+
+.macbook-pro-img{
+    width: 50%;
+    display: block;
+    margin: 1rem auto 10rem auto;
+}
+
+.apple-watch-pro-img{
+    width: 90%;
+    display: block;
+    margin: 8rem auto 0 auto;
+}
+
+.product-heading{
+    padding-top: 2rem;
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.product-subheading{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.homepod-img{
+    width: 90%;
+    display: block;
+    margin: 1rem auto 0 auto;
+}
+
+.ipad-pro-img{
+    width: 90%;
+    display: block;
+    margin: 1rem auto 0rem auto;
+}
+
+.apple-watch-img{
+    width: 50%;
+    display: block;
+    margin: 5rem auto 0 auto;
+}
+
+.ipad-img{
+    width: 35%;
+    display: block;
+    margin: 1rem auto 0rem auto;
+}
