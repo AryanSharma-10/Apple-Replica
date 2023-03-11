@@ -127,11 +127,11 @@ span {
   height: 100%;
   position: absolute;
   object-fit: cover;
-  z-index: 0;
+  z-index: -2;
 }
 
 .video-container .caption {
-  z-index: 1;
+  z-index: -1;
   position: relative;
   top: 35rem;
   font-size: 10rem;
@@ -178,6 +178,14 @@ span {
     background: #cccccc;
     text-decoration: none;
   }
+
+.random{
+    text-decoration: none;
+}
+
+.random:hover{
+    text-decoration: underline;
+}
 
 .black-product{
     background-color: black;
@@ -240,4 +248,66 @@ span {
     width: 35%;
     display: block;
     margin: 1rem auto 0rem auto;
+}
+
+#carouselAppleTV{
+    margin: -2rem 15rem -5rem 15rem;
+}
+
+
+.indicator-posiition{
+        position: relative;
+        top: 48.2rem;
+}
+
+.cara-btn{
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 100%;    
+}
+
+.stream-btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #000000;
+    font-size: 15px;
+    background: #ffffff;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    border: solid 0px;
+    position: relative;
+    bottom: 6.5rem;
+    left: 4rem;
+  }
+  
+  .stream-btn:hover {
+    background: #cccccc;
+    text-decoration: none;
+  }
+
+.apple-tv-btn{
+    position: relative;
+    left: 72rem;
+    bottom: 10rem;
+    color: white;
+    font-size: 3rem;
+}
+
+#Policy-and-Links{
+    background-color: #f5f5f7;
+    color: #6e6e73;
+    padding: 1rem 30rem;
+    font-size: 0.7rem;
+}
+
+footer{
+    background-color: #f5f5f7;
+    color: #6e6e73;
+    padding: 1rem 30rem;
+    font-size: 0.7rem;
+}
+
+.footer-txt{
+    display: inline;
 }
